@@ -55,3 +55,7 @@ withdraw(users[0] , 200)
 // checkBalance(user)
 
 withdraw(users[0] , 300)
+
+users.forEach((user)=>
+ console.log(user.name)
+)
